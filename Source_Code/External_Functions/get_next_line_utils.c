@@ -6,7 +6,7 @@
 /*   By: ysbai-jo <ysbai-jo@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 16:24:36 by ysbai-jo          #+#    #+#             */
-/*   Updated: 2024/03/26 20:34:10 by ysbai-jo         ###   ########.fr       */
+/*   Updated: 2024/03/29 18:13:05 by ysbai-jo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,8 +74,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		return (NULL);
 	s_l = ft_strlen(s);
 	if (start >= s_l)
-		return (NULL);
-	if (start + len >= s_l)
+		return (ft_strdupp(""));
+	else if (start + len >= s_l)
 	{
 		sub = malloc(sizeof(char) * (s_l - start + 1));
 		if (!sub)

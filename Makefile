@@ -26,7 +26,7 @@ S_OF=$(S)/Other_Functions
 FILES=	$(S)/so_long.c $(S_BF)/build_map.c $(S_BF)/build_mlx_images.c $(S_BF)/build_mlx_win.c \
 		$(S_CF)/check_arg.c $(S_CF)/check_path2exit.c $(S_CF)/check_pce_ch.c $(S_CF)/check_rectangle.c $(S_CF)/check_walls.c $(S_CF)/check_path2collec.c  $(S_CF)/check_xpm.c \
 		$(S_ERF)/err_map_R0.c $(S_ERF)/err_map_R1.c $(S_ERF)/err_map_R2.c \
-		$(S_EF)/ft_nstrlen.c $(S_EF)/ft_printf.c $(S_EF)/ft_strchr.c $(S_EF)/ft_strcmp.c $(S_EF)/ft_strrchr.c $(S_EF)/Func_I.c $(S_EF)/Func_II.c $(S_EF)/get_next_line_utils.c $(S_EF)/get_next_line.c $(S_EF)/ft_itoa.c  \
+		$(S_EF)/ft_nstrlen.c $(S_EF)/ft_printf.c $(S_EF)/ft_strchr.c $(S_EF)/ft_strcmp.c $(S_EF)/ft_strrchr.c $(S_EF)/Func_I.c $(S_EF)/Func_II.c $(S_EF)/get_next_line_utils.c $(S_EF)/get_next_line.c $(S_EF)/ft_itoa.c $(S_EF)/ft_strdupp.c \
 		$(S_OF)/handle_input.c $(S_OF)/handle_loop_input.c $(S_OF)/shutdown.c
 
 OBJ = 	$(FILES:.c=.o)

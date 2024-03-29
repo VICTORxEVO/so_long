@@ -6,7 +6,7 @@
 /*   By: ysbai-jo <ysbai-jo@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 16:24:57 by ysbai-jo          #+#    #+#             */
-/*   Updated: 2024/03/26 20:33:29 by ysbai-jo         ###   ########.fr       */
+/*   Updated: 2024/03/29 18:13:01 by ysbai-jo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 typedef unsigned char	t_uc;
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 1111111
+#  define BUFFER_SIZE 11111111
 # endif
 
 char			*handle_it(char **q_res, int nl_ind, char **buff);
@@ -34,5 +34,6 @@ size_t			ft_strlcpy(char *dest, const char *src, size_t size);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 size_t			ft_strlen(const char *str);
 void			*free_all(char **q_res, char **buff);
+char            *ft_strdupp(const char *s);
 
 #endif
