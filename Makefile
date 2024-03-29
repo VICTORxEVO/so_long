@@ -60,10 +60,15 @@ fclean: clean
 
 re: fclean all
 
-play: all
+map1: all
 		@echo "$(YELLOW)running the program...$(RESET)"
 		@sleep 0.55
 		@./so_long Maps/dust2.ber
+
+map2: all
+		@echo "$(YELLOW)running the program...$(RESET)"
+		@sleep 0.55
+		@./so_long Maps/marley.ber
 
 norm:
 		@norminette
