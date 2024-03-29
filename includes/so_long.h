@@ -6,7 +6,7 @@
 /*   By: ysbai-jo <ysbai-jo@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/17 10:17:41 by ysbai-jo          #+#    #+#             */
-/*   Updated: 2024/03/26 20:38:35 by ysbai-jo         ###   ########.fr       */
+/*   Updated: 2024/03/29 17:03:51 by ysbai-jo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -124,6 +124,7 @@ void			err_collec(t_game *engine);
 void			err_characters(t_game *engine, char c);
 void			err_path2exit(t_game *engine);
 void			err_path2collec(t_game *engine, int c, char *str);
+void			err_xpm(t_game *engine, char *msg);
 
 /*check functions*/
 void			check_walls(t_game *engine);
@@ -134,6 +135,7 @@ void			check_arg(int ac, char *path);
 void			check_file_ext(void *path);
 void			check_path2exit(t_game *engine);
 void			check_path2collec(t_game *engine);
+void			check_xpm(t_game *engine);
 
 /*building map functions*/
 void			build_map(char *path, t_game *engine);
