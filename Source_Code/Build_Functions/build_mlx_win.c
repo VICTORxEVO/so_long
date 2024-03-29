@@ -6,7 +6,7 @@
 /*   By: ysbai-jo <ysbai-jo@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/21 15:12:21 by ysbai-jo          #+#    #+#             */
-/*   Updated: 2024/03/29 17:19:52 by ysbai-jo         ###   ########.fr       */
+/*   Updated: 2024/03/29 22:43:06 by ysbai-jo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,6 +84,7 @@ void	build_mlx_win(t_game *engine)
 		shutdown_game(engine);
 	}
 	get_started(engine);
+	check_xpm(engine);
 	engine->win_ptr = mlx_new_window(engine->mlx_ptr, engine->map.col * CONST,
 			engine->map.row * CONST, "so_long");
 	if (!engine->win_ptr)
