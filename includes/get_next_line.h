@@ -34,6 +34,6 @@ size_t			ft_strlcpy(char *dest, const char *src, size_t size);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
 size_t			ft_strlen(const char *str);
 void			*free_all(char **q_res, char **buff);
-char            *ft_strdupp(const char *s);
+char			*ft_strdupp(const char *s);
 
 #endif
